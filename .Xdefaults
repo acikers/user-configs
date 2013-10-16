@@ -1,0 +1,19 @@
+URxvt*saveLines:	5000
+
+# Fonts
+URxvt*font:		-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
+
+# Colours
+URxvt*background:	#000000
+URxvt*foreground:	#BBBBBB
+
+#Fading
+URxvt*fading:		30
+
+#Scrollbars
+URxvt*scrollBar:	false
+URxvt*scrollBar_right:	false
+
+#Borders
+## Doesn't work with xmonad
+#URxvt*borderLess:	false
