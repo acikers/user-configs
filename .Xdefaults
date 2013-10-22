@@ -1,19 +1,28 @@
+
+! Fonts
+URxvt*font:			-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
+
+! Colours
+URxvt*background:	#2F3028
+URxvt*foreground:	#7B776B
+
+URxvt*color0:		#2F3028
+URxvt*color1:		#ED2323
+URxvt*color2:		#a7ed23
+URxvt*color7:		#7B776B
+
+
+
+!	URxvt
+
 URxvt*saveLines:	5000
 
-# Fonts
-URxvt*font:		-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
+!Fading
+URxvt*fading:		0
 
-# Colours
-URxvt*background:	#000000
-URxvt*foreground:	#BBBBBB
-
-#Fading
-URxvt*fading:		30
-
-#Scrollbars
+!Scrollbars
 URxvt*scrollBar:	false
 URxvt*scrollBar_right:	false
 
-#Borders
-## Doesn't work with xmonad
-#URxvt*borderLess:	false
+!Borders
+URxvt*borderLess:	false
