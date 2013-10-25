@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/vim-sml-coursera"]
+	path = .vim/bundle/vim-sml-coursera
+	url = https://github.com/chilicuil/vim-sml-coursera.git
