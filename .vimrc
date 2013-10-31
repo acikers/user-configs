@@ -7,6 +7,10 @@ execute pathogen#infect()
 " May be need to disable later.
 execute pathogen#helptags()
 
+" Coder's little helpers
+filetype plugin on
+filetype indent on
+
 syntax on
 set foldmethod=syntax
 set hlsearch
