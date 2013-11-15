@@ -1,23 +1,6 @@
-##
-## Configuration file for ncmpc (~/.ncmpc/config)
-##
-
-############## Connection ###################
-## Connect to mpd running on a specified host
-#host = "localhost"
-
-## Connect to mpd on the specified port.
-#port = 6600
-
-## Connect to mpd using the specified password.
-#password = "secret"
-
-## Reconnect after NUM seconds of MPD not responding.
-#timeout = 5
-
 ############## Interface ####################
-## Enable mouse support (if enabled at compile time).
-#enable-mouse = no
+# Fuck off, touchpad (if i forgot about you in compile-time)
+enable-mouse = no
 
 ## A list of screens to cycle through when using
 ## the previous/next screen commands (tab and shift+tab).
@@ -44,11 +27,9 @@
 ## Ring bell when find wraps around.
 #bell-on-wrap = yes
 
-## Sound audible bell on alerts.
-#audible-bell = yes
-
-## Enable visible bell on alerts.
-#visible-bell = no
+# Silence!
+audible-bell = no
+visible-bell = yes
 
 ## Default crossfade time in seconds.
 #crossfade-time = 10
@@ -61,7 +42,7 @@
 #welcome-screen-list = yes
 
 ## Make the cursor as wide as the screen.
-#wide-cursor = yes
+wide-cursor = yes
 
 ## Use the terminal's hardware cursor instead of inverse colors
 #hardware-cursor = yes
@@ -104,8 +85,8 @@
 ## Automatically save the lyrics after receiving them.
 #lyrics-autosave = no
 
-## The text editor used for editing lyrics.
-#text-editor = emacs
+# Only vim
+text-editor = vim
 
 ## Ask before starting an editor.
 #text-editor-ask = yes
@@ -123,8 +104,8 @@
 ## Colors can also be given as an integer representing a terminal specific
 ## color code. The special color, none, represents the terminals default color.
 
-## Enable/disable colors.
-#enable-colors = no
+# Enable/disable colors.
+enable-colors = yes
 
 ## Set the background color.
 #color background = black
