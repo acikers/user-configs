@@ -9,6 +9,7 @@ URxvt*foreground:	#7B776B
 URxvt*color0:		#2F3028
 URxvt*color1:		#ED2323
 URxvt*color2:		#a7ed23
+URxvt*color12:		#5050FF
 URxvt*color7:		#7B776B
 
 
