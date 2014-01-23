@@ -3,10 +3,10 @@
 URxvt*font:			-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
 
 ! Colours
-URxvt*background:	#2F3028
-URxvt*foreground:	#7B776B
+URxvt*background:	#303030
+URxvt*foreground:	#777777
 
-URxvt*color0:		#2F3028
+URxvt*color0:		#303030
 URxvt*color1:		#ED2323
 URxvt*color2:		#a7ed23
 URxvt*color12:		#5050FF
