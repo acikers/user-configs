@@ -1,0 +1,11 @@
+background	yes
+out_to_console	yes
+out_to_x	no
+update_interval	1
+update_interval_on_battery	5
+
+template0	^p(2)^ib(1)^fg(dark blue)^i(/home/acikers/.xmonad/dzen2/corner_left.xbm)^r(1920x12)^p(-1920)^fg(white)^bg(dark orange)^p()^fg(white)^p(2)
+template1	^p(2)^fg(dark blue)^i(/home/acikers/.xmonad/dzen2/corner_right.xbm)^fg(black)^r(1920x12)^p(-1920)
+
+TEXT
+$acpitemp $template0 $time $template1$template0 Battery Status: $battery $battery_time $template1$template0 AP: ${wireless_ap wlp3s0} Bitrate: ${wireless_bitrate wlp3s0} ESSID: ${wireless_essid wlp3s0} Link Quality: ${wireless_link_qual_perc wlp3s0}% $template1$template0 UpSpeed: ${upspeedf wlp3s0}KiB DownSpeed: ${downspeedf wlp3s0}KiB $template1
