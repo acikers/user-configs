@@ -31,7 +31,9 @@ while read p; do
 	elif [ $first_char = "d" ]; then
 		echo Directory!
 	elif [ $first_char = "l" ]; then
-		echo "Link!"
+		name=`echo $p | cut -d \  -f 9`
+		target=`echo $p | cut -d \  -f 11`
+		ln -s $target $name
 	elif [ $first_char = "s" ]; then
 		echo "Socket!"
   fi
