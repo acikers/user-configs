@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/vim-sml-coursera"]
 	path = .vim/bundle/vim-sml-coursera
 	url = https://github.com/chilicuil/vim-sml-coursera.git
+[submodule ".vim/bundle/clang_complete"]
+	path = .vim/bundle/clang_complete
+	url = https://github.com/Rip-Rip/clang_complete.git

@@ -31,3 +31,10 @@ highlight TabLineSel ctermbg=DarkYellow ctermfg=Black
 
 " Change statusline color
 highlight StatusLine ctermbg=Black ctermfg=DarkYellow
+
+let g:clang_complete_auto = 1
+let g:clang_use_library = 1
+let g:clang_debug = 1
+let g:clang_library_path = '/usr/lib'
+let g:clang_hl_errors = 1
+let g:clang_close_prewiev = 1
