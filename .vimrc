@@ -23,3 +23,11 @@ set list listchars=tab:>-,trail:·,precedes:<,extends:>,eol:¶
 " Higlight big lenght of lines
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+" Change tabbar color
+highlight TabLineFill ctermfg=DarkYellow
+highlight TabLine ctermbg=DarkYellow ctermfg=Gray
+highlight TabLineSel ctermbg=DarkYellow ctermfg=Black
+
+" Change statusline color
+highlight StatusLine ctermbg=Black ctermfg=DarkYellow
