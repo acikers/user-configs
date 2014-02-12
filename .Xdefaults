@@ -1,20 +1,40 @@
 
 ! Fonts
-URxvt*font:			-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
+URxvt*font:		-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
 
 ! Colours
 URxvt*background:	#303030
 URxvt*foreground:	#777777
 
+! Black
 URxvt*color0:		#303030
+! URxvt*color8:
+! Red
 URxvt*color1:		#ED2323
+! URxvt*color9:
+! Green
 URxvt*color2:		#a7ed23
-URxvt*color12:		#5050FF
-URxvt*color7:		#7B776B
+! URxvt*color10:
+! Yellow
+! URxvt*color3:
+! URxvt*color11:
+! Blue
+! URxvt*color4:		#87AF5F
+URxvt*color12:		#7777ED
+! Magenta
+! URxvt*color5:
+! URxvt*color13:
+! Cyan
+! URxvt*color6:
+! URxvt*color14:
+! White
+URxvt*color7:		#777777
+! URxvt*color15:
 
 
-
-!	URxvt
+URxvt.colorIT:		#87AF5F
+URxvt.colorBD:		#D7D7D7
+URxvt.colorUL:		#87AFD7
 
 URxvt*saveLines:	5000
 
