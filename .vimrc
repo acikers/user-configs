@@ -39,3 +39,6 @@ let g:clang_debug = 1
 let g:clang_library_path = '/usr/lib'
 let g:clang_hl_errors = 1
 let g:clang_close_prewiev = 1
+
+" Change style for some filetypes
+autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 expandtab 
