@@ -41,4 +41,6 @@ let g:clang_hl_errors = 1
 let g:clang_close_prewiev = 1
 
 " Change style for some filetypes
-autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 expandtab 
+autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 expandtab
+" Only for work, so I need disable this at home sometime
+autocmd FileType python setlocal shiftwidth=4 tabstop=4 expandtab
