@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/bundle/syntax_opengl"]
 	path = .vim/bundle/bundle/syntax_opengl
 	url = git://github.com/beyondmarc/opengl.vim.git
+[submodule ".vim/bundle/vim-glsl"]
+	path = .vim/bundle/vim-glsl
+	url = https://github.com/tikhomirov/vim-glsl
