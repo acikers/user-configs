@@ -10,3 +10,6 @@
 [submodule "/home/acikers/.vim/bundle/vim-signify"]
 	path = /home/acikers/.vim/bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify
+[submodule ".vim/bundle/bundle/syntax_opengl"]
+	path = .vim/bundle/bundle/syntax_opengl
+	url = git://github.com/beyondmarc/opengl.vim.git
