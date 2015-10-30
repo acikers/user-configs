@@ -1,35 +1,53 @@
 
-! Fonts
-URxvt*font:		-*-terminus-medium-*-*-*-12-*-*-72-*-*-*-u
+!! Fonts
+URxvt*font:		xft:Dina:pixelsize=12
+!URxvt*font:		xft:Terminus:pixelsize=12
+!URxvt*boldFont:		xft:terminus:bold:antialias=true:autohinting=true:pixelsize=12
 
 ! Colours
-URxvt*background:	#303030
+URxvt*background:	#262626
 URxvt*foreground:	#777777
 
 ! Black
-URxvt*color0:		#303030
-! URxvt*color8:
+!*color0:		#303030
+*color0:		#2E3436
+!*color8:
+*color8:		#555753
 ! Red
-URxvt*color1:		#ED2323
-! URxvt*color9:
+!*color1:		#ED2323
+*color1:		#a40000
+!*color9:
+*color9:		#EF2929
 ! Green
-URxvt*color2:		#a7ed23
-! URxvt*color10:
+!*color2:		#a7ed23
+*color2:		#4E9A06
+!*color10:
+*color10:		#8AE234
 ! Yellow
-! URxvt*color3:
-! URxvt*color11:
+!*color3:
+*color3:		#C4A000
+!*color11:
+*color11:		#FCE94F
 ! Blue
-! URxvt*color4:		#87AF5F
-URxvt*color12:		#7777ED
+!*color4:		#87AF5F
+*color4:		#3465A4
+!*color12:		#7777ED
+*color12:		#729FCF
 ! Magenta
-! URxvt*color5:
-! URxvt*color13:
+!*color5:
+*color5:		#75507B
+!*color13:
+*color13:		#AD7FA8
 ! Cyan
-! URxvt*color6:
-! URxvt*color14:
+!*color6:
+*color6:		#CE5C00
+!*color14:
+*color14:		#FCAF3E
 ! White
-URxvt*color7:		#777777
-! URxvt*color15:
+!*color7:		#777777
+*color7:		#BABDB9
+!*color15:
+*color15:		#EEEEEC
 
 
 URxvt.colorIT:		#87AF5F

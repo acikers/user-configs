@@ -9,3 +9,6 @@
 [core]
 	editor = vim
 	quotepath = false
+[user]
+	email = Denis.Morkhov@paragon-software.com
+	name = Denis Morkhov

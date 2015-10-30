@@ -8,7 +8,7 @@
 	path = .vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "/home/acikers/.vim/bundle/vim-signify"]
-	path = /home/acikers/.vim/bundle/vim-signify
+	path = .vim/bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify
 [submodule ".vim/bundle/bundle/syntax_opengl"]
 	path = .vim/bundle/bundle/syntax_opengl
@@ -16,3 +16,9 @@
 [submodule ".vim/bundle/vim-glsl"]
 	path = .vim/bundle/vim-glsl
 	url = https://github.com/tikhomirov/vim-glsl
+[submodule "/home/acikers/.vim/bundle/vim-fugitive"]
+	path = /home/acikers/.vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
