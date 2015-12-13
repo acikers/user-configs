@@ -23,7 +23,7 @@ highlight SpecialKey ctermfg=8
 
 " Higlight big lenght of lines
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"match OverLength /\%81v.\+/
 
 " Change tabbar color
 highlight TabLineFill ctermfg=DarkYellow
@@ -41,6 +41,7 @@ let g:clang_hl_errors = 1
 let g:clang_close_prewiev = 1
 
 " Change style for some filetypes
-autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 expandtab
+autocmd FileType cpp setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType hs setlocal shiftwidth=4 tabstop=4 expandtab
 " Only for work, so I need disable this at home sometime
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 expandtab
