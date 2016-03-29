@@ -1,10 +1,8 @@
 --
--- xmonad example config file.
+-- Welcome aboard.
+-- There my attempt to use xmonad
 --
--- A template showing all available configuration hooks,
--- and how to override the defaults in your own xmonad.hs conf file.
---
--- Normally, you'd only override those defaults you care about.
+-- TODO: More cyberpunky look
 --
 
 import XMonad
@@ -24,6 +22,8 @@ import XMonad.Util.EZConfig
 
 import XMonad.Prompt
 import XMonad.Prompt.RunOrRaise (runOrRaisePrompt)
+
+import XMonad.Layout.Maximize
 
 import XMonad.Util.WorkspaceCompare
 
@@ -153,6 +153,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- Push window back into tiling
     , ((modm,               xK_t     ), withFocused $ windows . W.sink)
 
+    -- Maximize focused window
+    , ((modm,               xK_z     ), withFocused (sendMessage . maximizeRestore))
+
     -- Increment the number of windows in the master area
     , ((modm              , xK_comma ), sendMessage (IncMasterN 1))
 
@@ -224,7 +227,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 -- The available layouts.  Note that each layout is separated by |||,
 -- which denotes layout choice.
 --
-myLayout = tiled ||| Mirror tiled ||| Full
+myLayout = maximize ( tiled ||| Mirror tiled ) ||| Full
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
