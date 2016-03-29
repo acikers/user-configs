@@ -1,0 +1,6 @@
+*.hi
+*.o
+xmonad-*-linux
+history
+*.errors
+conky_urgent
