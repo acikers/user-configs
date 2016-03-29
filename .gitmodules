@@ -8,7 +8,7 @@
 	path = .vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "/home/acikers/.vim/bundle/vim-signify"]
-	path = /home/acikers/.vim/bundle/vim-signify
+	path = .vim/bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify
 [submodule ".vim/bundle/bundle/syntax_opengl"]
 	path = .vim/bundle/bundle/syntax_opengl
