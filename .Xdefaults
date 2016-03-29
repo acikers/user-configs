@@ -2,7 +2,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 ! Fonts
-! 
+!
 URxvt*font:		xft:Terminus
 URxvt*letterSpace:	1
 !
@@ -34,7 +34,7 @@ URxvt*color2:		#a7ed23
 ! Blue
 !URxvt*color4:		#87AF5F
 URxvt*color12:		#7777ED
-
+!
 ! Magenta
 !URxvt*color5:
 !URxvt*color13:
@@ -46,10 +46,12 @@ URxvt*color12:		#7777ED
 ! White
 URxvt*color7:		#777777
 !URxvt*color15:
-
+!
 URxvt.colorIT:		#87AF5F
 URxvt.colorBD:		#D7D7D7
 URxvt.colorUL:		#87AFD7
+!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 URxvt*saveLines:	5000
 
