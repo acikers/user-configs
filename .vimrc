@@ -13,6 +13,7 @@ filetype indent on
 
 syntax on
 
+set modeline
 set foldmethod=syntax
 
 set hlsearch

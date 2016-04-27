@@ -8,8 +8,11 @@
 # Don't need on my situation
 #xrandr --output LVDS-0 --off
 
-#xrandr --auto
+xrandr --output DVI-0 --mode 1920x1080 --output HDMI-0 --mode 1920x1080
+
+#xcompmgr -c &
 
 # Run xmonad
 xmonad
 #startfluxbox
+#startkde
