@@ -301,7 +301,7 @@ myLogHook = dynamicLogWithPP $ defaultPP
 
 printUrgency :: String -> IO ()
 printUrgency s = do
-	h <- openFile "/home/acikers/.xmonad/conky_urgent" WriteMode
+	h <- openBinaryFile "/home/acikers/.xmonad/conky_urgent" WriteMode
 	hPutStrLn h (s)
 	hClose h
 
