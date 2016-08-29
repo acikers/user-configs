@@ -60,28 +60,14 @@ myModMask       = mod1Mask
 -- workspace name. The number of workspaces is determined by the length
 -- of this list.
 --
-myWorkspaces    = ["1:www","2:chat","3:code","4:system","5:music","6:video","7:games","8:git","9:remote"]
+myWorkspaces    = ["1:www","2:chat","3:code","4:system","5:music","6:video","7:playground","8:git","9:remote"]
 
 ------------------------------------------------------------------------
 -- Colors
 --
 --
 foregroundColor  = "#EBB024"
-foregroundFade1  = "#66CC66"
-foregroundFade2  = "#336633"
 backgroundColor  = "#1B1D1E"
-myDzenFGColor    = "#555555"
-myDzenBGColor    = "#222222"
-myNormalFGColor  = "#FFFFFF"
-myNormalBGColor  = "#000000"
-myFocusedFGColor = "#1B1D1E"
-myFocusedBGColor = "#ebb024"
-myUrgentFGColor  = "#000000"
-myUrgentBGColor  = "#0077ff"
-myIconFGColor    = foregroundColor
-myIconBGColor    = "#0f0f0f"
-myPatternColor   = "#675726"
-mySeperatorColor = "#555555"
 --
 -- Border colors for unfocused and focused windows, respectively.
 --

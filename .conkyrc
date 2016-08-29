@@ -20,7 +20,7 @@ minimum_size	1920 24
 alignment	top_left
 
 update_interval			0.1
-update_interval_on_battery	5
+update_interval_on_battery	0.1
 
 lua_load		~/.xmonad/upper_panel.lua
 lua_draw_hook_pre	conky_main
