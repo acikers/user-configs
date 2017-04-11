@@ -117,7 +117,7 @@ function draw_minutes(start_x, start_y)
 	for _ in pairs(min_bits) do
 		size = size + 1
 	end
-	while size < 5 do
+	while size < 6 do
 		cairo_move_to(cr, cur_x, cur_y)
 		cairo_rectangle(cr, cur_x, cur_y, 4, 4)
 		cairo_stroke(cr)
@@ -183,7 +183,7 @@ end
 
 function draw_clock()
 
-	local start_x = 1815
+	local start_x = 1810
 	local start_y = 2
 	cairo_set_source_rgba(cr, 1, 1, 1, 1)
 	cairo_set_antialias(cr, 1)
