@@ -1,4 +1,8 @@
 !/.gitignore
 /src/
+
 .zsh_history
 .bash_history
+
+.Skype
+.Xauthority

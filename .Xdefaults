@@ -3,7 +3,7 @@
 !
 ! Fonts
 !
-URxvt*font:		xft:Terminus
+URxvt*font:		xft:Terminus-9
 URxvt*letterSpace:	1
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

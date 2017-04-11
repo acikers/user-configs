@@ -206,6 +206,7 @@ function conky_main()
 	cs = cairo_xlib_surface_create(conky_window.display, conky_window.drawable, conky_window.visual, conky_window.width, conky_window.height)
 	cr = cairo_create(cs)
 
+	cairo_select_font_face(cr, "Terminus", CAIRO_FONT_SLANT_NORMAL, CAIRO_FONT_WEIGHT_BOLD)
 	draw_workspace()
 	draw_mcabber_messages()
 	draw_cpu_load()
