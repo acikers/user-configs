@@ -58,16 +58,26 @@ end
 
 function draw_cpu_load()
 
-	cairo_set_source_rgba(cr, 1, 1, 1, 1)
-	cairo_set_line_width(cr,2)
+	cairo_set_antialias(cr, 1)
+	cairo_set_line_width(cr, 1)
 
-	cpu_start=0
+	cpu_start=5
 	for cpu_num=1,4,1 do
-		cairo_move_to(cr,cpu_start,2)
-		cpu_end = (conky_parse("${cpu cpu" .. cpu_num .. "}"));
-		cairo_line_to(cr,cpu_start+cpu_end,2)
-		cairo_close_path(cr)
+		cpu_end = (conky_parse("${cpu cpu" .. cpu_num .. "}"))
+
+		cairo_set_line_width(cr, 1)
+		cairo_set_source_rgba(cr, 1, 1, 1, 0.4)
+		cairo_rectangle(cr, cpu_start, 1, 101, 4)
 		cairo_stroke(cr)
+
+		if tonumber(cpu_end) < 1 then
+			cpu_end = 1
+		end
+
+		cairo_set_source_rgba(cr, 0.921, 0.690, 0.141, 1)
+		cairo_rectangle(cr, cpu_start, 1.5, cpu_end, 2.5)
+		cairo_fill(cr)
+
 		cpu_start = cpu_start+108
 	end
 end
@@ -83,7 +93,7 @@ function draw_seconds(start_x, start_y)
 	for _ in pairs(sec_bits) do
 		size = size + 1
 	end
-	while size < 5 do
+	while size < 6 do
 		cairo_move_to(cr, cur_x, cur_y)
 		cairo_line_to(cr, cur_x, cur_y + 1)
 		cur_x = cur_x + 2
