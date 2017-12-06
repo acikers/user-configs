@@ -3,10 +3,14 @@
 !
 ! Fonts
 !
-URxvt*font:		xft:Terminus-9
+URxvt*font:		xft:xos4 Terminus-9:style=Regular
+URxvt*boldFont:		xft:xos4 Terminus-9:style=Bold
 URxvt*letterSpace:	1
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+URxvt*termName:		screen-256color
+URxvt*loginShell:	true
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -16,51 +20,63 @@ URxvt*background:	#303030
 URxvt*foreground:	#777777
 !
 ! Black
-URxvt*color0:		#303030
-!URxvt*color8:
+URxvt*color0:		#101010
+URxvt*color8:		#505050
 !
 ! Red
-URxvt*color1:		#ED3030
-!URxvt*color9:
+URxvt*color1:		#903030
+URxvt*color9:		#DD5050
 !
 ! Green
-URxvt*color2:		#a7ed23
-!URxvt*color10:
+URxvt*color2:		#107010
+URxvt*color10:		#50DD50
 !
 ! Yellow
-!URxvt*color3:
-!URxvt*color11:
+URxvt*color3:		#AB6E03
+URxvt*color11:		#FDDC01
 !
 ! Blue
-!URxvt*color4:		#87AF5F
-URxvt*color12:		#7777ED
+URxvt*color4:		#101070
+URxvt*color12:		#5050DD
 !
 ! Magenta
-!URxvt*color5:
-!URxvt*color13:
+URxvt*color5:		#9C3885
+URxvt*color13:		#E628BA
 !
 ! Cyan
-!URxvt*color6:
-!URxvt*color14:
+URxvt*color6:		#10B0B0
+URxvt*color14:		#70FFFF
 !
 ! White
-URxvt*color7:		#777777
-!URxvt*color15:
+URxvt*color7:		#BBBBBB
+URxvt*color15:		#FFFFFF
 !
 URxvt.colorIT:		#87AF5F
 URxvt.colorBD:		#D7D7D7
 URxvt.colorUL:		#87AFD7
 !
+!
+! Cursor
+URxvt.cursorColor:	#EBB024
+URxvt.cursorBlink:	True
+URxvt.pointerBlank:	False
+!URxvt.cursorColor:	#1B1D1E
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-URxvt*saveLines:	5000
 
 !Fading
 URxvt*fading:		0
 
-!Scrollbars
+
+! Scrollbars
 URxvt*scrollBar:	false
 URxvt*scrollBar_right:	false
+! And scrolling
+URxvt*saveLines:	5000
+URxvt.skipScroll:	True
 
 !Borders
-URxvt*borderLess:	false
+URxvt.borderLess:	True
+
+! Jingle Bells
+URxvt.visualBell:	True
+
