@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vimperator.vim"]
 	path = .vim/bundle/vimperator.vim
 	url = https://github.com/vimperator/vimperator.vim.git
+[submodule "/home/acikers/.vim/bundle/vim-fugitive"]
+	path = /home/acikers/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
